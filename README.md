@@ -24,9 +24,13 @@ python fileprotector.py <mode> <input_file> <output_file> <key_file> --algorithm
 ### Arguments
 
 `<mode>` : Operation mode, either encrypt or decrypt.
+
 `<input_file>` : Path to the file to be encrypted or decrypted.
+
 `<output_file>` : Path to save the resulting file.
+
 `<key_file>` : Path to read or save the encryption key.
+
 `--algorithm` : Encryption algorithm to use (optional; default is AES). Options: AES or 3DES.
 
 ### Example Commands
